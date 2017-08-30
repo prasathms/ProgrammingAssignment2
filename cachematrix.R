@@ -2,7 +2,6 @@
 ## function makeCacheMatrix - set, get Matrix and Set & Get inverse matrix
 ## function cacheSolve - return a inverse Matrix, check with makeCacheMatrix for cache
 
-
 makeCacheMatrix <- function(x = matrix()) {
     m <- NULL
     set <- function(y) 
@@ -19,8 +18,6 @@ makeCacheMatrix <- function(x = matrix()) {
        setmatrixinverse = setmatrixinverse,
        getmatrixinverse = getmatrixinverse)
 }
-
-
 
 ## cacheSolve(a)
 cacheSolve <- function(x, ...) {
